@@ -15,4 +15,5 @@
 
 
 ### Here is the test results from our npm run test.
+Time was 2.434 seconds.
 ![Jest Test Results](/test.png)
