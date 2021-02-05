@@ -13,16 +13,16 @@ document.getElementById('calculate').addEventListener("click", function () {
 
     let output = 0;
 
-    if ((input1 == "NaN") || (input2 == "NaN")) {
+    if (isNaN(input1) || isNaN(input2)) {
         output = "???";
     } else if (operation == "+") {
-        let output = calc.add(input1, input2);
+        output = calc.add(input1, input2);
     } else if (operation == "-") {
-        let output = calc.subtract(input1, input2);
+        output = calc.subtract(input1, input2);
     } else if (operation == "*") {
-        let output = calc.multiply(input1, input2);
+        output = calc.multiply(input1, input2);
     } else if (operation == "/") {
-        let output = calc.divide(input1, input2);
+        output = calc.divide(input1, input2);
     }
 
     console.log(output);
