@@ -7,9 +7,9 @@ Homework – due 2/8/21 by 8pmHomework – due 2/8/21 by 8pm
 1. Bootstrap and extra creativity is not necessary in this homework
 1. Using JS Classes – implement your math logic
 1. Include the necessary Node.js dependencies in your package.json
- 1. Use “npm install” to download all the Jest/testing functionality
+   1. Use “npm install” to download all the Jest/testing functionality
 1. Add a test script (ie. calc.test.js) to your project
- 1. Cover the 4 basic math calculations
+   1. Cover the 4 basic math calculations
 1. Each test must pass before you turn in the homework
 1. Commit the changes and send me a link to the repo when you’re done.
 
