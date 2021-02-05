@@ -11,6 +11,8 @@ document.getElementById('calculate').addEventListener("click", function () {
     console.log(input2);
     console.log(operation);
 
+    let output = 0;
+
     if ((input1 == "NaN") || (input2 == "NaN")) {
         output = "???";
     } else if (operation == "+") {
@@ -22,6 +24,8 @@ document.getElementById('calculate').addEventListener("click", function () {
     } else if (operation == "/") {
         let output = calc.divide(input1, input2);
     }
+
+    console.log(output);
 
     document.getElementById('output').innerText = output;
 
