@@ -1,6 +1,6 @@
 # calc-app
 
-## Homework – due 2/8/21 by 8pmHomework – due 2/8/21 by 8pm
+### Homework – due 2/8/21 by 8pm
 **Goal: Create a Calculator app & unit tests that can perform Add, Subtract, Multiply & Divide functions and verification.**
  
 1. Create a new project “calc-app” / GitHub repo
