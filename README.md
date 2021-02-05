@@ -14,5 +14,5 @@
 1. Commit the changes and send me a link to the repo when you’re done.
 
 
-**Here is the test results from our npm run test.**
+### Here is the test results from our npm run test.
 ![Jest Test Results](/test.png)
