@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'klingon_fontregular';
+	src: url('../font/klingon_font.woff2') format('woff2'),
+		url('../font/klingon_font.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: url(../../assets/images/startrek.jpg) no-repeat center center
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+h1.klingon,
+input.klingon,
+select.klingon {
+	font-family: 'klingon_fontregular', Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.logo {
+	width: 75px;
+	height: 50px;
+}
+
+.background {
+	color: white;
+}
