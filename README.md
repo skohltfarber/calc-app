@@ -13,6 +13,11 @@
 1. Each test must pass before you turn in the homework
 1. Commit the changes and send me a link to the repo when you’re done.
 
+### Important Packages to provide to get import to work. 
+
+npm install --save-dev babel-jest @babel/core @babel/preset-env jest
+
+Create a babel.config.js which will allow import to work.
 
 ### Here is the test results from our npm run test.
 Time was 2.434 seconds.
